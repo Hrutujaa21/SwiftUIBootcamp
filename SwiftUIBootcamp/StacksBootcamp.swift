@@ -16,11 +16,15 @@ struct StacksBootcamp: View {
             
             ZStack {
                 Circle()
-                    .frame(width: 100, height: 100)
+                    .frame(width: 200, height: 200)
                 
                 Text("1")
                     .font(.title)
                     .foregroundColor(.white)
+                
+                Circle()
+                    .fill(Color.blue)
+                    .frame(width: 100, height: 100)
             }
             
             Text("1")
